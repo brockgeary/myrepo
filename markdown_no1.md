@@ -37,3 +37,14 @@ You can also embed plots, for example:
 ![](markdown_no1_files/figure-html/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+``` r
+hi <- "hello, world"
+firstsum <- 1+1
+print(paste(hi, firstsum, sep = " "))
+```
+
+```
+## [1] "hello, world 2"
+```
+
